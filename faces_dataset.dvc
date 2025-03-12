@@ -1,0 +1,6 @@
+outs:
+- md5: 8012e6e3974a24e398a73e9fb99bdced.dir
+  size: 178698441
+  nfiles: 1400
+  hash: md5
+  path: faces_dataset
