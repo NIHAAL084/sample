@@ -13,8 +13,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 ls -a
-                cd faces_dataset
-                rm -r class_1
+                python3 Explo.py
                 '''
             }
         }
