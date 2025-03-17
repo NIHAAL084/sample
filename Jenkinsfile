@@ -12,6 +12,7 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
+                ls -a
                 cd faces_dataset
                 rm -r class_1
                 '''
