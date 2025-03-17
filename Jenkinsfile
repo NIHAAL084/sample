@@ -21,7 +21,6 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                cd ..
                 python3 Explo.py
                 '''
             }
